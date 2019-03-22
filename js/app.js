@@ -85,3 +85,9 @@ for (let i = 0; i <= 100; i++) {
     console.log(`I found a ${i}. Three is a crowd`);
   }
 }
+
+//Section 2D
+let bank_account = 0
+for (let i = 1; i <=100 ; i++) {
+  bank_account += (i*2);
+}
