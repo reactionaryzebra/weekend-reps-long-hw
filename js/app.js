@@ -38,3 +38,11 @@ console.log(e === 'Kevin');
 console.log(a + b === c);
 console.log(a * a === d);
 console.log(48 == '48');
+
+//Section 1D
+const animal = 'Goose';
+if (animal === 'Cow'){
+  console.log('Moo');
+} else {
+  console.log('Hey! You\'re not a cow.');
+}
