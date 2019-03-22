@@ -91,3 +91,6 @@ let bank_account = 0
 for (let i = 1; i <=100 ; i++) {
   bank_account += (i*2);
 }
+
+//Section 2E
+//I've already done this
