@@ -76,3 +76,12 @@ for (let i = 1; i <=100 ; i++) {
     console.log(`${i} is an even number`);
   }
 }
+
+//Section 2C
+for (let i = 0; i <= 100; i++) {
+  if ((i != 0) && (i % 5 === 0)){
+    console.log(`I found a ${i}. High five!`);
+  } else if ((i!=0) && (i % 3 === 0)){
+    console.log(`I found a ${i}. Three is a crowd`);
+  }
+}
