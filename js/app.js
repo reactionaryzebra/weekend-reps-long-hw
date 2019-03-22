@@ -46,3 +46,11 @@ if (animal === 'Cow'){
 } else {
   console.log('Hey! You\'re not a cow.');
 }
+
+//Section 1E
+let personAge = 29;
+if (personAge >= 16){
+  console.log('Here are the keys');
+} else{
+  console.log('Sorry, you\'re too young.');
+}
