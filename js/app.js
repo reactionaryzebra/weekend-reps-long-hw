@@ -106,6 +106,15 @@ const quotes = ['You broke my heart Fredo', 'It\s a Sicilian message.  It means 
 '];
 
 //Section 3C
+const randomThings = [1, 10, "Hello", true]
+//1
+randomThings[0];
+//2
+randomThings[2] = 'World';
+//3
+console.log(randomThings);
+
+//Section 3D
 const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"]
 //1
 ourClass[2];
