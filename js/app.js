@@ -198,3 +198,6 @@ kristynsCloset[5] = 'stained knit hat';
 console.log(`Thom is looking fierce in a ${thomsCloset[0][0]}, ${thomsCloset[1][2]} and ${thomsCloset[2][2]}!`);
 //8
 thomsCloset[1][2] = 'Footie Pajamas';
+
+//Section 4A
+//I already did THis
