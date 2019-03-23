@@ -240,3 +240,23 @@ const printLongestWord = (arr) => {
 
 //Section 4I
 const transmogrify = (num1, num2, num3) => (num1*num2)**num3;
+
+//Section 4J
+const reverseWordOrder = (str) => {
+  let reversedString = '';
+  let spaceIndex = str.length;
+  for (let i = str.length-1; i >=0 ; i--) {
+    if (str[i] === ' '){
+      for (let j = (i+1); j < spaceIndex; j++) {
+        reversedString += str[j];
+      }
+      reversedString += ' ';
+      spaceIndex = i;
+    } else if (i === 0){
+      for (let j = 0; j < spaceIndex ; j++) {
+        reversedString += str[j];
+      }
+    }
+  }
+  return reversedString;
+}
