@@ -217,3 +217,6 @@ const isVowel = (char) => {
     return false;
   }
 }
+
+//Section 4E
+const getTwoLengths = (str1, str2) => [str1.length, str2.length];
