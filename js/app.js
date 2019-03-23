@@ -237,3 +237,6 @@ const printLongestWord = (arr) => {
   const maxIndex = lengthsArr.indexOf(max);
   return arr[maxIndex];
 }
+
+//Section 4I
+const transmogrify = (num1, num2, num3) => (num1*num2)**num3;
