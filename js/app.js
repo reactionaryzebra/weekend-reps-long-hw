@@ -102,8 +102,7 @@ for (let i = 1; i <=100 ; i++) {
 
 //Section 3B
 //1
-const quotes = ['You broke my heart Fredo', 'It\s a Sicilian message.  It means Luca Brazi sleeps with the fishes.', 'If anything in this life is certain, if history has taught us anything, it\'s that you can kill anyone.
-'];
+const quotes = ['You broke my heart Fredo', 'It\s a Sicilian message.  It means Luca Brazi sleeps with the fishes.', 'If anything in this life is certain, if history has taught us anything, it\'s that you can kill anyone.', 'It was an abortion.  Just like this marriage is an abortion', 'I believe in America'];
 
 //Section 3C
 const randomThings = [1, 10, "Hello", true]
@@ -260,3 +259,15 @@ const reverseWordOrder = (str) => {
   }
   return reversedString;
 }
+
+//Section 4K
+//1
+const randOneToTen = () => 1 + Math.floor(Math.random() * 10);
+//2
+const randTenToHundred = () => 10 + Math.floor(Math.random() * 91);
+//3
+const rand532To13267 = () => 532 + Math.floor(Math.random()* 12736);
+//4
+//I did this in part 1
+//5
+const getRandomElement = (arr) => arr[Math.floor(Math.random()*arr.length)];
