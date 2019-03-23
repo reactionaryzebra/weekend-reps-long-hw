@@ -204,3 +204,6 @@ thomsCloset[1][2] = 'Footie Pajamas';
 
 //Section 4B
 const printCool = (name) => console.log(`${name} is cool!`);
+
+//Section 4C
+const calculateCume = (num) => num ** 3;
