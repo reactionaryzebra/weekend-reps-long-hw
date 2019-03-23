@@ -104,3 +104,12 @@ for (let i = 1; i <=100 ; i++) {
 //1
 const quotes = ['You broke my heart Fredo', 'It\s a Sicilian message.  It means Luca Brazi sleeps with the fishes.', 'If anything in this life is certain, if history has taught us anything, it\'s that you can kill anyone.
 '];
+
+//Section 3C
+const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"]
+//1
+ourClass[2];
+//2
+ourClass[4] = 'Octocat';
+//3
+ourClass.push('Cloud City');
