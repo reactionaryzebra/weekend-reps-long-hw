@@ -201,3 +201,6 @@ thomsCloset[1][2] = 'Footie Pajamas';
 
 //Section 4A
 //I already did THis
+
+//Section 4B
+const printCool = (name) => console.log(`${name} is cool!`);
