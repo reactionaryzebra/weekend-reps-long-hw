@@ -94,3 +94,8 @@ for (let i = 1; i <=100 ; i++) {
 
 //Section 2E
 //I've already done this
+
+//Section 3A
+//1) Arrays contain elements at indexes which begin at zero.
+//2) No, elements in arrays are not necessarily in any order.
+//3) A shopping list, an attendance roster, a recipe, these are all things that could be represented in an array.
