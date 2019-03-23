@@ -138,9 +138,19 @@ myArray.reverse();
 //Yes the reverse method mutates the array by reversing the position of the elements.  Mutate means to change
 //the original variable.  The reverse method returns a reference to the new (reversed) array.
 
+//Section 3F
 const number = 5;
 if (number < 100){
   console.log('little number');
 } else {
   console.log('big number');
+}
+
+//Section 3G
+if (number < 5){
+  console.log('little number');
+} else if (number > 10){
+  console.log('big number');
+} else {
+  console.log('monkey');
 }
