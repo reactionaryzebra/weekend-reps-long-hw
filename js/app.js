@@ -226,3 +226,6 @@ const getMultipleLengths = (arr) => {
   const lengthArr = arr.map((element) => element.length);
   return lengthArr;
 }
+
+//Section 4G
+const maxOfThree = (num1, num2, num3) => Math.max(num1, num2, num3);
