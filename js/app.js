@@ -99,3 +99,8 @@ for (let i = 1; i <=100 ; i++) {
 //1) Arrays contain elements at indexes which begin at zero.
 //2) No, elements in arrays are not necessarily in any order.
 //3) A shopping list, an attendance roster, a recipe, these are all things that could be represented in an array.
+
+//Section 3B
+//1
+const quotes = ['You broke my heart Fredo', 'It\s a Sicilian message.  It means Luca Brazi sleeps with the fishes.', 'If anything in this life is certain, if history has taught us anything, it\'s that you can kill anyone.
+'];
