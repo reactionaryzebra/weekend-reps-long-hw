@@ -122,3 +122,18 @@ ourClass[2];
 ourClass[4] = 'Octocat';
 //3
 ourClass.push('Cloud City');
+
+//Section 3E
+const myArray = [5, 10, 500, 20]
+//1
+myArray.push('Egon', 'Dolphin');
+//2
+myArray.shift();
+//3
+myArray.unshift('Bob Marley');
+//4
+myArray.pop();
+//5
+myArray.reverse();
+//Yes the reverse method mutates the array by reversing the position of the elements.  Mutate means to change
+//the original variable.  The reverse method returns a reference to the new (reversed) array.
