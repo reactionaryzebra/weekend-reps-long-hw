@@ -137,3 +137,10 @@ myArray.pop();
 myArray.reverse();
 //Yes the reverse method mutates the array by reversing the position of the elements.  Mutate means to change
 //the original variable.  The reverse method returns a reference to the new (reversed) array.
+
+const number = 5;
+if (number < 100){
+  console.log('little number');
+} else {
+  console.log('big number');
+}
