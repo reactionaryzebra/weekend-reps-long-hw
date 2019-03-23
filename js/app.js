@@ -207,3 +207,13 @@ const printCool = (name) => console.log(`${name} is cool!`);
 
 //Section 4C
 const calculateCume = (num) => num ** 3;
+
+//Section 4D
+const isVowel = (char) => {
+  const vowels = ['a','e','i','o','u','A','E','I','O','U'];
+  if (vowels.includes(char)){
+    return true;
+  } else {
+    return false;
+  }
+}
