@@ -229,3 +229,11 @@ const getMultipleLengths = (arr) => {
 
 //Section 4G
 const maxOfThree = (num1, num2, num3) => Math.max(num1, num2, num3);
+
+//Section 4H
+const printLongestWord = (arr) => {
+  const lengthsArr = arr.map((element) => element.length);
+  const max = lengthsArr.reduce((a,b) => Math.max(a,b));
+  const maxIndex = lengthsArr.indexOf(max);
+  return arr[maxIndex];
+}
