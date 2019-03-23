@@ -220,3 +220,9 @@ const isVowel = (char) => {
 
 //Section 4E
 const getTwoLengths = (str1, str2) => [str1.length, str2.length];
+
+//Section 4F
+const getMultipleLengths = (arr) => {
+  const lengthArr = arr.map((element) => element.length);
+  return lengthArr;
+}
