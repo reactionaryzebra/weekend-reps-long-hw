@@ -277,7 +277,14 @@ const user = {
   name: 'Justin',
   email: 'Justin@me.com',
   age: 29,
-  purchased: []
+  purchased: [],
+  friend: {
+    name: 'Rose',
+    email: 'Rosewater@msn.net',
+    age: 26,
+    location: 'couch',
+    purchased: []
+  }
 };
 
 //Objects B
@@ -292,3 +299,11 @@ user.purchased.push('carbohydrates');
 user.purchased.push('peace of mind');
 user.purchased.push('Merino jodhpurs');
 console.log(user.purchased[2]);
+
+//Objects E
+console.log(user.friend.name);
+console.log(user.friend.location);
+user.friend.age = 55;
+user.friend.purchased.push('The one ring');
+user.friend.purchased.push('A latte');
+console.log(user.friend.purchased[1]);
