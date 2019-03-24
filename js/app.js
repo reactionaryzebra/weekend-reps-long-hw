@@ -279,3 +279,7 @@ const user = {
   age: 29,
   purchased: []
 };
+
+//Objects B
+user.email = 'J.New@lycos.com';
+user.age++;
