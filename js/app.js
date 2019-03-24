@@ -283,3 +283,6 @@ const user = {
 //Objects B
 user.email = 'J.New@lycos.com';
 user.age++;
+
+//Objects C
+user.location = 'Earth';
