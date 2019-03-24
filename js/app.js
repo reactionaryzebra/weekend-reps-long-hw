@@ -271,3 +271,11 @@ const rand532To13267 = () => 532 + Math.floor(Math.random()* 12736);
 //I did this in part 1
 //5
 const getRandomElement = (arr) => arr[Math.floor(Math.random()*arr.length)];
+
+//Objects A
+const user = {
+  name: 'Justin',
+  email: 'Justin@me.com',
+  age: 29,
+  purchased: []
+};
